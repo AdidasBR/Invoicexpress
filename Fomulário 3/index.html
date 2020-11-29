@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt">
+	<head>
+		<meta charset="utf-8">
+		<title>InvoiceXpress | Software de Facturação Online | Facturas Sem Complicações</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!--fonts para redes sociais  -->
+		<link rel="stylesheet" href="fonts/material-design-iconic-font/css/material-design-iconic-font.min.css">	
+		<!--estilos  -->
+		<link rel="stylesheet" href="css/form.css">
+		<link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+	</head>
+
+	<body>
+		<main>
+			<div class="client"></div>
+			<div class="container">	
+				
+				<!-- início form -->
+				<img src="./images/logo__site-gray.png" alt="logo cinza Invoicexpress" class="logo__footer">
+				<div class="form-content">
+					<!-- chama ficheiro php para envio do formulário -->
+					<form action="./php/sendmail.php" method="post">
+					<!-- chama ficheiro php para envio do formulário -->
+
+					<!-- título newsletter -->
+						<div class="form-header">
+							<h1>Subscreva a nossa Newsletter</h1>
+							<p>Receba notícias sobre a Autoridade Tributária, novas funcionalidades,<br>ofertas e cursos</p>
+						</div>
+
+						<!-- início campos para form-->
+						<div class="form-items">
+							<label for="nome">Nome:</label>
+							<input type="text" name="nome" class="form-control" data-validation="length" data-validation-length="min3">
+							
+						</div>
+						<div class="form-items">
+							<label for="Email">E-mail:</label>
+							<input type="text" name="email" class="form-control" data-validation="email">
+						</div>
+						<div class="form-items">
+							<label for="Profissao">Profissão:</label>
+							<input type="text" name="profissao" class="form-control" data-validation="length" data-validation-length="min3">
+							
+						</div>
+						<button type="submit" name="submit">Subscrever</button>		
+						<!-- fim campos para form-->
+					</form>
+				</div>
+				<!-- fim form -->
+
+				<!-- início redes sociais -->
+
+				<div class="info">
+					<!-- início links footer -->
+					<div class="info__items">
+						<a href="">Política de Privacidade</a>
+						<a href="">Termos e Condições</a>
+					</div>
+					<!-- fim textos footer -->
+
+					<!-- início redes sociais -->
+					<div class="socials">
+						<a href="https://pt-br.facebook.com/invoicexpress" target="_blank" class="socials-icon">
+							<i class="zmdi zmdi-facebook"></i>
+						</a>
+	
+						<a href="https://twitter.com/InvoiceXpress" target="_blank" class="socials-icon">
+							<i class="zmdi zmdi-twitter"></i>
+						</a>
+	
+						<a href="http://www.youtube.com/user/invoicexpress?feature=results_main" target="_blank" class="socials-icon">
+							<i class="zmdi zmdi-youtube"></i>
+						</a>
+	
+						<a href="https://plus.google.com/101701226270945247548/posts" target="_blank" class="socials-icon">
+							<i class="zmdi zmdi-google-plus"></i>
+						</a>
+						
+						<a href="https://www.linkedin.com/company/invoicexpress" target="_blank" class="socials-icon">
+							<i class="zmdi zmdi-linkedin"></i>
+						</a>
+					</div>
+					<!-- fim redes sociais -->
+				</div>
+			
+			</div>
+		</main>
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<script src="js/jquery-3.3.1.min.js"></script>
+		<script src="js/jquery.form-validator.min.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>
