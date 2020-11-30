@@ -1,7 +1,7 @@
 <?php
 
 
-	$para = "rrossellini@hotmail.com";
+	$para = "design-challenge@rupeal.com";
 	$assunto = "Nova subscrição Newsletter";
 
 
